@@ -1,0 +1,129 @@
+header{
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.primer-logo {
+    width: 30%;
+    height: 150px;
+    margin: 0 10%;     /* Se pone para seprarar del lado izquierdo
+                       Se hace que el primer termino es para arriba y abajo
+                       y el segundo es para izquierda y derecha*/
+    
+}
+
+.autor {
+    position: absolute; /* Hace que se pueda poner en frente de la imagen*/
+    top: 75px;
+    right: 30%;
+}
+
+main {
+    background: linear-gradient(whitesmoke, black);
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rules {
+    text-align: center;
+    font-size: 15px;
+    margin: 1% 0;
+}
+
+.izquierdo {
+    float: left;
+    width: 60%;
+    height: 80%;
+    border-radius: 25px;
+    background: none;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.text-input {
+    background: none;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    width: 55%;
+    border-radius: 25px;
+    outline: none; /* Hace que al apretar en el input, no se vea del borde */
+    margin: 0 10%;
+}
+
+.derecho {
+    float: right;
+    width: 40%;
+    height: 70%;
+    border-radius: 25px;
+    background: none;
+    margin: 30px 0;
+    text-align: center;
+}
+
+#text-area-right {
+    background: none;
+    border: none;
+    outline: none;
+    height: 70%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#copy {
+    width: 15%;
+    border-radius: 25px;
+    text-align: center;
+    border-color: white;
+    background: none;
+    color: white;
+    display: none;
+    float: right;
+    margin: auto 15%;
+}
+
+
+.encriptar {
+    width: 15%;
+    height: auto;
+    border-radius: 25px;
+    text-align: center;
+    border-color: white;
+    background: none;
+    color: white;
+    position: absolute;
+    margin: 0 10%;
+}
+
+.desencriptar {
+    width: 15%;
+    margin: 0 30%;
+    height: auto;
+    border-radius: 25px;
+    text-align: center;
+    border-color: white;
+    background: none;
+    color: white;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center; /* Hace que la imagen y el texto se centren */
+    padding: 30px;
+}
+
+.logo-final {
+    height: 100px;
+}
+
+.copyright{
+    color: whitesmoke;
+    font-size: 13px;
+    margin: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador de Texto</title>
+</head>
+
+
+
+<body>
+
+    <header class="encabezado">
+        <div>
+            <h1><img class="primer-logo" src="alura_letneg.png" alt="Alura logo"></h1>
+            <p class="autor">Andrés Canseco</p>
+        </div>
+    </header>
+
+
+    <main>
+
+        <p class="title">Encriptador de mensajes</p>
+        <p class="rules">Solo minúsculas y sin acentos. </p>
+
+        <section class="izquierdo">
+            <input type="text-input" class="text-input" id="text-input" placeholder="Ingrese el texto aquí...">
+        </section>
+
+        <section class="derecho">
+            <textarea name="text-area-right" id="text-area-right" cols="30" rows="10">No ha escrito ningún mensaje, por favor ingrese el texto a encriptar o desencriptar</textarea>
+        </section>
+
+        <section>
+            <input type="submit" value="Encriptar" class="encriptar" onclick="encriptar()">
+            <input type="submit" value="Desencriptar" class="desencriptar" onclick="desencriptar()">
+            <button id="copy" onclick="copiar()">Copiar</button>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <img class="logo-final" src="alura_letrablanca.png" alt="Alura logo blanco">
+        <p class="copyright">&copy Copyright Challenge 1 Alura 2023</p>
+    </footer>
+
+</body>
+
+
+
+</html>
